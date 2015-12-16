@@ -1,0 +1,4 @@
+print("How old are you?")
+age = raw_input()
+X = 24 
+print("In ten years youll be” + X + “years old")
