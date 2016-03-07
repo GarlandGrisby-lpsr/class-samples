@@ -1,6 +1,6 @@
 # Making functions & classing
 class Player(object):
-	def __init__(self, name, age, goals, position):
+	def __init__(self, name1, age1, goals1, position1):
 		self.name = name
 		self.age = age
 		self.goals = goals
@@ -31,6 +31,13 @@ def openingfiles():
 	file = open('pumas.tmd', 'r')
 	print(file.read())
 
+def TwoPaverage():
+	print 'The average age is ' + (age1 * age2 % 2)
+	print 'The average goals are ' + (goals1 * goals2 % 2)
+
+
+
+
 # Starts the code execution
 firstquestion()
 User_Choice = int(raw_input())
@@ -39,26 +46,43 @@ if User_Choice == 1:
 		
 if User_Choice == 2:
 	askquestions()
-	userchoice = int(raw_input())	
+	userchoice = int(raw_input())
+	Numofplayers = 0	
 	if userchoice == 1:
 		print 'Whats your players name?'
-		name = str(raw_input())
+		name1 = str(raw_input())
 		print 'Whats your players age?'
-		age = int(input())
+		age1 = int(input())
 		print 'Whats your players goals?'
-		goals = int(raw_input())
+		goals1 = int(raw_input())
 		print 'Whats your players position?'
-		position = str(raw_input())
-
-print 'One more player'		
-askquestions()
+		position1 = str(raw_input())
+		Numofplayers = Numofplayers + 1
 
 
+		print 'One more player'		
+		askquestions()
+		userchoice = int(raw_input())
+		if userchoice == 1:
+			print 'Whats your players name?'
+			name2 = str(raw_input())
+			print 'age'
+			age2 = int(raw_input())
+			print 'Goals?'
+			goals2 = int(raw_input())
+			print 'Position?'
+			position2 = str(raw_input())
+			Numofplayers = Numofplayers + 1
 
+			print '''Would you like to
+			(2) Print average stats of players
+			or
+			(3) Exit?'''
+			
+			userchoice = int(raw_input())
+			if userchoice == 2:
+				TwoPaverage()
 
-
-
-
-# Exit
+# Exit\
 if userchoice == 3:
 	print 'Bye'
