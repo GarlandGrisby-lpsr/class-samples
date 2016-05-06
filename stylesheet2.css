@@ -1,0 +1,50 @@
+header {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: solid purple;
+    background-color: purple; 
+    width: 950;
+    margin: 0px 20px; 
+}
+
+body {
+    background-color: #F3F3F3;
+
+}
+
+#searchbarandnavigation {
+    margin: 20px;
+    border: solid black;
+        width: 950px;
+}
+
+#clickablelinks {
+   margin: -60px 0px 0px 300px;
+   border: ;
+   font-size: 25px;
+  padding: 10px;
+}
+
+#oursports {
+    border: solid purple;
+    width: 150px;
+    text-align: center;
+    margin: 6px 0px 0px 20px;
+  }
+
+#homepic {
+    margin: -368px 0px 2px 0px;
+    padding: 200px;
+}
+
+#Description {
+    background: purple;
+    padding: 250px;
+    margin: -150px 0px 0px 0px;
+    font-family: cursive;
+    font-size: 30px;
+    border: solid;
+    text-align: center;
+    color: white;
+}
