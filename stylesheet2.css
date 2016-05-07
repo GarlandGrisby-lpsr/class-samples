@@ -48,3 +48,9 @@ body {
     text-align: center;
     color: white;
 }
+
+#footer {
+    clear: both;
+    border: solid grey;
+    background: grey;
+}
