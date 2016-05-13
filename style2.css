@@ -1,0 +1,43 @@
+h1 {
+  border: solid;
+  color: white;
+  border-color: purple;
+  background: purple;
+  text-align: center;
+}
+
+#nav {
+  border: dotted purple;
+  width: 150px;
+  text-align: center;
+} 
+
+#main {
+  text-align: center;
+  border: solid purple;
+  width: 600px;
+  margin: -473px 0px 0px 180px;
+  padding: 10px;
+  
+}
+
+#oursports {
+  border: dotted purple;
+  text-align: center; 
+  width: 150px;
+  margin: 20px 0px 0px 0px;
+}
+
+#GameDates {
+  border: dotted purple;
+  text-align: center; 
+  width: 150px;
+  margin: 20px 0px 0px 0px;
+}
+
+#footer {
+  border: solid grey;
+  text-align: center;
+  margin: 200px 0px 0px 0px;
+  background: grey;
+  color: white;
